@@ -1,0 +1,138 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	animation: App-logo-spin infinite 20s linear;
+	height: 40vmin;
+	pointer-events: none;
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+.aboutSection {
+	text-align: left;
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(
+		-45deg,
+		#f2f6f8 1%,
+		#d8e1e7 50%,
+		#3aafa9 95%,
+		#3aafa9 100%,
+		#e0eff9 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		-45deg,
+		#f2f6f8 1%,
+		#d8e1e7 50%,
+		#3aafa9 95%,
+		#3aafa9 100%,
+		#e0eff9 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		135deg,
+		#f2f6f8 1%,
+		#d8e1e7 50%,
+		#3aafa9 95%,
+		#3aafa9 100%,
+		#e0eff9 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.section1 {
+	background-color: #fff;
+}
+.section2 {
+	text-align: left;
+	background-color: #f4f4f4;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.section2 h2 {
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+.section2 a {
+	color: #fff;
+}
+.section3 {
+	text-align: left;
+	background: #f2f6f8; /* Old browsers */
+	background: -moz-linear-gradient(
+		-45deg,
+		#f2f6f8 1%,
+		#d8e1e7 50%,
+		#3aafa9 95%,
+		#3aafa9 100%,
+		#e0eff9 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		-45deg,
+		#f2f6f8 1%,
+		#d8e1e7 50%,
+		#3aafa9 95%,
+		#3aafa9 100%,
+		#e0eff9 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		135deg,
+		#f2f6f8 1%,
+		#d8e1e7 50%,
+		#3aafa9 95%,
+		#3aafa9 100%,
+		#e0eff9 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.section3 h2 {
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+.section3 a {
+	color: #fff;
+}
+.section4 {
+	text-align: left;
+	background-color: #f4f4f4;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.section4 h2 {
+	padding-bottom: 20px;
+	padding-left: 15px;
+}
+.section4 a {
+	color: #fff;
+}
+.footer {
+	padding-top: 15px;
+}
+.footer p {
+	padding-left: 15px;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
